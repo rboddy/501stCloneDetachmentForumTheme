@@ -1,70 +1,54 @@
 body {
-  color: white;
+	color: white;
 }
 .ipsApp {
-  background-color: #334257;
+	background-color: #334257;
 }
 #ipsLayout_header > header {
-  background-color: #334257;
-  color: white;
+	background-color: #334257;
+    color: white;
 }
 #ipsLayout_header nav::after {
-  background-color: #476072;
+	background-color: #476072;
 }
-.ipsNavBar_secondary > li.ipsNavBar_active a,
-.ipsNavBar_secondary > li a {
-  color: white;
+.ipsNavBar_secondary > li.ipsNavBar_active a, .ipsNavBar_secondary > li a {
+	color: white;
 }
 .ipsNavBar_secondary > li a:hover {
-  color: white;
-  text-decoration: underline;
+	color: white;
+    text-decoration: underline;
 }
 .ipsBox {
-  background-color: #476072;
+	background-color: #476072;
 }
-.ipsWidget_title,
-.cForumTitle {
-  background-color: #548ca8;
-  color: white;
+.ipsWidget_title, .cForumTitle {
+	background-color: #548CA8;
+    color: white;
 }
-.ipsApp .ipsButton_important,
-#ipsLayout_header nav,
-.ipsProgressBar_progress,
-.ipsButtonBar:first-child,
-.ipsType_sectionTitle.ipsHide + .ipsButtonBar {
-  background-color: #548ca8;
+.ipsApp .ipsButton_important, #ipsLayout_header nav, .ipsProgressBar_progress, .ipsButtonBar:first-child, .ipsType_sectionTitle.ipsHide + .ipsButtonBar, .ipsTabs_activeItem {
+	background-color: #548CA8;
 }
-.ipsItemStatus.ipsItemStatus_large,
-.ipsAreaBackground_light,
-.ipsApp .ipsButton_primary {
-  background: #548ca8;
+.ipsItemStatus.ipsItemStatus_large, .ipsAreaBackground_light, .ipsApp .ipsButton_primary {
+	background: #548CA8;
 }
-a,
-.ipsDataItem_stats_number,
-.ipsType_light,
-.ipsWidget_statsCount,
-.ipsBreadcrumb,
-.ipsPageHeader h1,
-.ipsType_richText.ipsContained,
-[data-role="editorComposer"],
-.cForumList .ipsDataItem_title > a,
-a.ipsType_sectionTitle,
-.ipsType_sectionTitle a,
-.ipsBreadcrumb_top,
-.ipsApp .ipsButton_link,
-.ipsType_normal:not(.ipsType_richText),
-.ipsItemControls {
-  color: white;
+a, .ipsDataItem_stats_number, .ipsType_light, .ipsWidget_statsCount, .ipsBreadcrumb, .ipsPageHeader h1, .ipsType_richText.ipsContained, [data-role="editorComposer"], .cForumList .ipsDataItem_title > a, a.ipsType_sectionTitle, .ipsType_sectionTitle a, .ipsBreadcrumb_top, .ipsApp .ipsButton_link, .ipsType_normal:not( .ipsType_richText ), .ipsItemControls {
+	color: white;
 }
 a:hover {
-  color: #334257;
+	color: #334257;
 }
-.ipsItemStatus:not(.ipsItemStatus_large) {
-  color: #548ca8;
+.ipsItemStatus:not( .ipsItemStatus_large ) {
+	color: #548CA8;
 }
-.ipsItemStatus:not(.ipsItemStatus_large) {
-  color: white;
+.ipsItemStatus:not( .ipsItemStatus_large ) {
+	color: white;
 }
 .ipsItemStatus.ipsItemStatus_read {
-  opacity: 1;
+	opacity: 1;
+}
+.ipsTabs_panel, .ipsAreaBackground_reset {
+	background-color: #476072;
+}
+.ipsBorder_top, .ipsBorder_vertical {
+	border-top: 2px solid white !important;
 }
