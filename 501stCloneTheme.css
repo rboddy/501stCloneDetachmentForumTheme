@@ -52,3 +52,6 @@ a:hover {
 .ipsBorder_top, .ipsBorder_vertical {
 	border-top: 2px solid white !important;
 }
+input {
+	color: black !important;
+}
