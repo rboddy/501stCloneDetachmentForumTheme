@@ -31,7 +31,7 @@ body {
 .ipsItemStatus.ipsItemStatus_large, .ipsAreaBackground_light, .ipsApp .ipsButton_primary {
 	background: #548CA8;
 }
-a, .ipsDataItem_stats_number, .ipsType_light, .ipsWidget_statsCount, .ipsBreadcrumb, .ipsPageHeader h1, .ipsType_richText.ipsContained, [data-role="editorComposer"], .cForumList .ipsDataItem_title > a, a.ipsType_sectionTitle, .ipsType_sectionTitle a, .ipsBreadcrumb_top, .ipsApp .ipsButton_link, .ipsType_normal:not( .ipsType_richText ), .ipsItemControls {
+a, .ipsDataItem_stats_number, .ipsType_light, .ipsWidget_statsCount, .ipsBreadcrumb, .ipsPageHeader h1, .ipsType_richText.ipsContained, [data-role="editorComposer"], .cForumList .ipsDataItem_title > a, a.ipsType_sectionTitle, .ipsType_sectionTitle a, .ipsBreadcrumb_top, .ipsApp .ipsButton_link, .ipsType_normal:not( .ipsType_richText ), .ipsItemControls, .ipsType_noLinkStyling, .ipsType_noLinkStyling:hover {
 	color: white;
 }
 a:hover {
